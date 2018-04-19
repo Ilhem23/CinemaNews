@@ -10,4 +10,6 @@
     <dimen name="left_offset">61dp</dimen>
     <dimen name="card_width">148dp</dimen>
     <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="indicator_size">10dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
 </resources>
