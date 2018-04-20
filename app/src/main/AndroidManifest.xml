@@ -27,7 +27,9 @@
         <activity android:name=".FilmDetails" />
         <activity android:name=".test" />
         <activity android:name=".Personnage" />
-        <activity android:name=".serieDescription"></activity>
+        <activity android:name=".serieDescription" />
+        <activity android:name=".Saison" />
+        <activity android:name=".Episode"></activity>
     </application>
 
 </manifest>
