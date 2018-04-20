@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background2"
-    tools:context="com.example.aissaouiilhem.cinemanews.Personnage">
+    tools:context="com.example.aissaouiilhem.cinemanews.serieDescription">
+
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -54,7 +55,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:background="@color/background2"
-                        app:srcCompat="@drawable/act3" />
+                        app:srcCompat="@drawable/ser5" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -66,7 +67,7 @@
                             android:id="@+id/textView7"
                             android:layout_width="match_parent"
                             android:layout_height="80dp"
-                            android:text="Roar Uthaug "
+                            android:text="Game of Thrones"
                             android:textColor="@color/accent"
                             android:textSize="30sp"
                             android:textStyle="bold"
@@ -76,7 +77,7 @@
                             android:id="@+id/textView8"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="Metiers : Réalisateur "
+                            android:text="Créée par David Benioff, D.B. Weiss (2011)"
                             android:textColor="@color/colorPrimaryDark"
                             android:textStyle="bold" />
 
@@ -84,7 +85,7 @@
                             android:id="@+id/textView9"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="Date naissance: 25 - 08 - 1973"
+                            android:text="U.S.A."
                             android:textColor="@color/colorPrimaryDark"
                             android:textStyle="bold" />
 
@@ -92,7 +93,15 @@
                             android:id="@+id/textView10"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="Ans de carrière : 15"
+                            android:text="DRAME FANTASTIQUE"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="52 minutes"
                             android:textColor="@color/colorPrimaryDark"
                             android:textStyle="bold" />
 
@@ -103,7 +112,7 @@
                     android:id="@+id/desc"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:text="biographie"
+                    android:text="Description"
                     android:textColor="@color/accent"
                     android:textSize="30sp"
                     android:textStyle="bold"
@@ -113,7 +122,7 @@
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Roar Uthaug est né en Norvège en 1973 ; il s’intéresse très tôt à la musique et au cinéma et intègre donc l’école du cinéma norvégien de Lillehammer. Le cinéaste y réalise un court métrage, Regjeringen Martin, très remarqué en 2003. Il travaille ensuite pour ... "
+                    android:text="Il y a très longtemps, à une époque oubliée, une force a détruit l'équilibre des saisons. Dans un pays où l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. La confrérie de la Garde de Nuit, protégeant le Royaume de toute créature pouvant provenir d'au-delà du Mur protecteur, n'a plus les ressources nécessaires pour assurer la sécurité de tous ... "
                     android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold" />
 
@@ -121,7 +130,7 @@
                     android:id="@+id/act"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:text="Filmographie"
+                    android:text="Saisons"
                     android:textColor="@color/accent"
                     android:textSize="30sp"
                     android:textStyle="bold"
@@ -147,13 +156,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/wav" />
+                                app:srcCompat="@drawable/serie3" />
 
                             <TextView
                                 android:id="@+id/s11"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="The Wave"
+                                android:text="Saison 3"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="20sp" />
                         </LinearLayout>
@@ -168,13 +177,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/dag" />
+                                app:srcCompat="@drawable/saison4" />
 
                             <TextView
                                 android:id="@+id/s22"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Dagmar"
+                                android:text="Saison 4"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="20sp" />
                         </LinearLayout>
@@ -189,13 +198,100 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                app:srcCompat="@drawable/tombraider" />
+                                app:srcCompat="@drawable/saison5" />
 
                             <TextView
                                 android:id="@+id/s33"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Tomb Raider"
+                                android:text="Saison 5"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/assl"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Séries Liées "
+                    android:textColor="@color/accent"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:theme="?android:attr/textViewStyle" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/salle1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/ser1" />
+
+                            <TextView
+                                android:id="@+id/s1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Arrow"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/salle2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/ser2" />
+
+                            <TextView
+                                android:id="@+id/s2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Dexter"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/salle3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/ser4" />
+
+                            <TextView
+                                android:id="@+id/s3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Vikings"
                                 android:textColor="@color/colorPrimary"
                                 android:textSize="20sp" />
                         </LinearLayout>
@@ -242,5 +338,4 @@
             </LinearLayout>
         </RelativeLayout>
     </ScrollView>
-
 </android.support.constraint.ConstraintLayout>

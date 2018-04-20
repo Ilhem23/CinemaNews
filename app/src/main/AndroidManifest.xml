@@ -26,7 +26,8 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".FilmDetails" />
         <activity android:name=".test" />
-        <activity android:name=".Personnage"></activity>
+        <activity android:name=".Personnage" />
+        <activity android:name=".serieDescription"></activity>
     </application>
 
 </manifest>

@@ -367,7 +367,8 @@
                     android:background="@color/cardview_light_background"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Commenter" />
+                    android:text="Commenter"
+                    android:textColor="@color/colorPrimaryDark" />
 
                 <ImageButton
                     android:id="@+id/imageButton13"

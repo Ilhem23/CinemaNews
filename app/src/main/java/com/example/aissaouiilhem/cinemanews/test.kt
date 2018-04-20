@@ -6,6 +6,7 @@ import android.content.Intent
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
 import android.view.View
+import android.widget.ImageButton
 import com.example.aissaouiilhem.cinemanews.R.id.toolbar
 import com.example.aissaouiilhem.cinemanews.R.id.toolbar
 import kotlinx.android.synthetic.main.activity_test.*
@@ -26,7 +27,17 @@ class test : AppCompatActivity() {
         toolbar.setNavigationOnClickListener {
             val intent = Intent(this, Main2Activity::class.java )
             startActivity(intent) }
-
+        val btn: ImageButton = sale1
+        setEvent(btn,Personnage::class.java)
 
     }
+    private fun setEvent(btn : ImageButton, cls: Class<*>) {
+
+        btn.setOnClickListener({
+            val intent = Intent(this, cls)
+            startActivity(intent)
+        })
+
+    }
+
 }
