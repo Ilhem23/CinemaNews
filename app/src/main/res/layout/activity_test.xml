@@ -160,7 +160,7 @@
                     android:textColor="@color/background2" />
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/b6"
                     android:layout_width="32dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
