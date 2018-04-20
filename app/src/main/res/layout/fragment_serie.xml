@@ -1,9 +1,9 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/md_grey_400">
+    android:background="@color/background2">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -26,8 +26,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Liste les Séries"
-                android:textColor="@color/colorPrimary"
-                android:textSize="30sp" />
+                android:textColor="@color/accent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -39,37 +40,36 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/imageButton"
+                        android:id="@+id/seri1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/film5" />
+                        app:srcCompat="@drawable/ser5" />
 
                     <ImageButton
-                        android:id="@+id/imageButton2"
+                        android:id="@+id/seri2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/film2" />
+                        app:srcCompat="@drawable/ser1" />
 
                     <ImageButton
-                        android:id="@+id/imageButton3"
+                        android:id="@+id/seri3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/film3" />
+                        app:srcCompat="@drawable/ser2" />
 
                     <ImageButton
-                        android:id="@+id/imageButton4"
+                        android:id="@+id/seri3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/film8" />
+                        app:srcCompat="@drawable/ser3" />
 
                 </LinearLayout>
 
             </HorizontalScrollView>
-
 
 
             <HorizontalScrollView
@@ -118,8 +118,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bandes D'annonces"
-                android:textColor="@color/colorPrimary"
-                android:textSize="30sp" />
+                android:textColor="@color/accent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"

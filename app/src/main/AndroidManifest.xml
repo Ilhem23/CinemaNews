@@ -24,7 +24,9 @@
             android:name=".FilmDeatails"
             android:label="@string/title_activity_film_deatails"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".FilmDetails"></activity>
+        <activity android:name=".FilmDetails" />
+        <activity android:name=".test" />
+        <activity android:name=".Personnage"></activity>
     </application>
 
 </manifest>

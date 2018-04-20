@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/md_grey_400">
+    android:background="@color/background2">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,8 +25,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Liste Les Films"
-                android:textColor="@color/colorPrimary"
-                android:textSize="30sp" />
+                android:textColor="@color/accent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -84,28 +85,28 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/serie2" />
+                        app:srcCompat="@drawable/li1" />
 
                     <ImageButton
                         android:id="@+id/f7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/serie3" />
+                        app:srcCompat="@drawable/li2" />
 
                     <ImageButton
                         android:id="@+id/f8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/serie4" />
+                        app:srcCompat="@drawable/li3" />
 
                     <ImageButton
                         android:id="@+id/f9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/serie5" />
+                        app:srcCompat="@drawable/tombraider" />
 
                 </LinearLayout>
 
@@ -116,8 +117,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bandes D'annonces"
-                android:textColor="@color/colorPrimary"
-                android:textSize="30sp" />
+                android:textColor="@color/accent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -165,8 +167,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Salles Cinémas"
-                android:textColor="@color/colorPrimary"
-                android:textSize="30sp" />
+                android:textColor="@color/accent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
