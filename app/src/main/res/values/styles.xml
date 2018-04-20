@@ -11,13 +11,22 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+
     </style>
     <style name="TemperatureTextView">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/temperature_text</item>
         <item name="android:gravity">center</item>
     </style>
-
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="CustomTextStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
     <style name="PlaceTextView">
         <item name="android:textSize">24sp</item>
         <item name="android:gravity">center</item>
