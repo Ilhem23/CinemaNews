@@ -4,7 +4,7 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item android:title="Mes Favories"> </item>
+        <item android:title="Mes Favories"></item>
 
         <item
             android:id="@+id/nav_camera"
@@ -26,7 +26,7 @@
             android:icon="@drawable/ic_power_settings_new_black_24dp"
             android:iconTint="@color/accent"
             android:title="Quitter" />
-        </group>
+    </group>
 
 
 

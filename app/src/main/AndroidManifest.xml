@@ -4,7 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+
+        android:icon="@drawable/delicatessen"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -20,16 +21,15 @@
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".FilmDeatails"
-            android:label="@string/title_activity_film_deatails"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".FilmDetails" />
+
         <activity android:name=".test" />
         <activity android:name=".Personnage" />
         <activity android:name=".serieDescription" />
         <activity android:name=".Saison" />
-        <activity android:name=".Episode"></activity>
+        <activity android:name=".Episode" />
+        <activity android:name=".MesFilms" />
+        <activity android:name=".MesSalles" />
+        <activity android:name=".MesSerie"></activity>
     </application>
 
 </manifest>

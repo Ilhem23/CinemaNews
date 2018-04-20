@@ -346,7 +346,7 @@
             </HorizontalScrollView>
 
             <TextView
-                android:id="@+id/ass2"
+                android:id="@+id/asslii2"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="Commentaire"

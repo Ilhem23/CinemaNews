@@ -1,6 +1,8 @@
 package com.example.aissaouiilhem.cinemanews
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Process.SIGNAL_KILL
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
 import android.support.design.widget.TabLayout
@@ -16,6 +18,8 @@ import kotlinx.android.synthetic.main.app_bar_main2.*
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
+import android.widget.ImageButton
+import kotlinx.android.synthetic.main.activity_serie_description.*
 import java.util.ArrayList
 
 class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -99,15 +103,21 @@ class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_camera -> {
-                // Handle the camera action
+                val intent = Intent(this, MesSerie::class.java)
+                startActivity(intent)
             }
             R.id.nav_gallery -> {
+                val intent = Intent(this, MesFilms::class.java)
+                startActivity(intent)
 
             }
             R.id.nav_slideshow -> {
+                val intent = Intent(this, MesSalles::class.java)
+                startActivity(intent)
 
             }
             R.id.nav_manage -> {
+                finish()
 
             }
 
