@@ -22,8 +22,8 @@ import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_serie_description.*
 import java.util.ArrayList
 
-class Main2Activity : AppCompatActivity() {
-  /*  private var tabLayout: TabLayout? = null
+class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+   private var tabLayout: TabLayout? = null
     var viewPager: ViewPager? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -85,7 +85,7 @@ class Main2Activity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.main2, menu)
+        menuInflater.inflate(R.menu.menu_search, menu)
         return true
     }
 
@@ -94,7 +94,7 @@ class Main2Activity : AppCompatActivity() {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         when (item.itemId) {
-            R.id.action_search -> return true
+            R.id.menu_search -> return true
             else -> return super.onOptionsItemSelected(item)
         }
     }
@@ -125,9 +125,6 @@ class Main2Activity : AppCompatActivity() {
 
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
-    }*/
-  override fun onCreate(savedInstanceState: Bundle?) {
-      super.onCreate(savedInstanceState)
-      setContentView(R.layout.activity_main2)
-  }
+    }
+
 }

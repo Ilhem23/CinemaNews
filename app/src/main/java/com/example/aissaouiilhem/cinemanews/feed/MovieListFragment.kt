@@ -139,7 +139,7 @@ class MovieListFragment : Fragment(),
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
         super.onCreateOptionsMenu(menu, inflater)
 
-        inflater?.inflate(R.menu.main2, menu)
+        inflater?.inflate(R.menu.menu_search, menu)
 
         val menuItem = menu?.findItem(R.id.menu_search)
 

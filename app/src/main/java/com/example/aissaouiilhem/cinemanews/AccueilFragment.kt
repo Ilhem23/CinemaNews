@@ -28,11 +28,11 @@ class AccueilFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment val posts: ArrayList<Int> = ArrayList()
-        var view = inflater.inflate(R.layout.fragment_accueil, container, false)
-     val img=  view.findViewById<ImageButton>(R.id.imageButton)
+      var view = inflater.inflate(R.layout.fragment_accueil, container, false)
+   /*  val img=  view.findViewById<ImageButton>(R.id.imageButton)
         val video= view.findViewById<ImageButton>(R.id.annonce1)
         setEvent(img,test::class.java)
-        setEvent(video,VideoAnnonces::class.java)
+        setEvent(video,VideoAnnonces::class.java)*/
         return view
 
     }// Required empty public constructor
