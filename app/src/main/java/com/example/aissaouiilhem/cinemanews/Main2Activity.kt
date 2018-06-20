@@ -22,8 +22,8 @@ import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_serie_description.*
 import java.util.ArrayList
 
-class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
-    private var tabLayout: TabLayout? = null
+class Main2Activity : AppCompatActivity() {
+  /*  private var tabLayout: TabLayout? = null
     var viewPager: ViewPager? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -125,5 +125,9 @@ class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
 
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
-    }
+    }*/
+  override fun onCreate(savedInstanceState: Bundle?) {
+      super.onCreate(savedInstanceState)
+      setContentView(R.layout.activity_main2)
+  }
 }

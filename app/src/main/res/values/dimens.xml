@@ -12,4 +12,6 @@
     <dimen name="card_corner_radius">10dp</dimen>
     <dimen name="indicator_size">10dp</dimen>
     <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="grid">8dp</dimen>
+    <dimen name="text_grid">4dp</dimen>
 </resources>
